@@ -26,5 +26,5 @@ td {
 
 td:hover {
     background: #444;
-    
+    cursor: pointer;
 }

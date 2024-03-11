@@ -11,20 +11,25 @@
         <h1>jogo da velha</h1>
         <table>
             <tr>
-                <td>x</td>
-                <td>o</td>
-                <td>x</td>
+                <td onclick="marcar(this)"></td>
+                <td onclick="marcar(this)"></td>
+                <td onclick="marcar(this)"></td>
             </tr>
             <tr>
-                <td>x</td>
-                <td>o</td>
-                <td>x</td>
+                <td onclick="marcar(this)"></td>
+                <td onclick="marcar(this)"></td>
+                <td onclick="marcar(this)"></td>
             </tr>
             <tr>
-                <td>x</td>
-                <td>o</td>
-                <td>x</td>
+                <td onclick="marcar(this)"></td>
+                <td onclick="marcar(this)"></td>
+                <td onclick="marcar(this)"></td>
             </tr>
         </table>
+        <script>
+            function marcar(celula) {
+                celula.innerText = "X"
+            }
+        </script>
     </body>
     </html>
