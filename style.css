@@ -1,0 +1,30 @@
+body {
+    background: #111;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+table {
+    font-style: initial;
+    color: red;
+    text-align: center;
+    margin: 0 auto; 
+}
+
+td {
+    border-radius: 10px;
+    font-size: 80px;
+    width: 100px;
+    height: 100px;
+    text-transform: uppercase;
+    background: #333;
+}
+
+td:hover {
+    background: #444;
+    
+}
