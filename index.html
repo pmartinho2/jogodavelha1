@@ -27,8 +27,14 @@
             </tr>
         </table>
         <script>
+            var jogador = "X"
             function marcar(celula) {
-                celula.innerText = "X"
+                celula.innerText = jogador
+                if (jogador == "X") {
+                    jogador = "O"
+                } else {
+                    jogador = "X"
+                }
             }
         </script>
     </body>
